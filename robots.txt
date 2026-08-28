@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://worth-your-time-site.vercel.app/sitemap.xml
