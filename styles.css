@@ -58,9 +58,11 @@
   --accent-bright:var(--tomato);
   --accent-tint:var(--tomato-tint);
 
-  /* brand mark */
-  --brand-mark:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCA0MCA0MCc+CjxjaXJjbGUgY3g9JzIwJyBjeT0nMjAnIHI9JzE5JyBmaWxsPScjRDY0NzJCJyBzdHJva2U9JyMxRTE3MTAnIHN0cm9rZS13aWR0aD0nMicvPgo8cGF0aCBkPSJNOSAxMiBMMTQgMjkgTDIwIDE2IEwyNiAyOSBMMzEgMTIiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI0ZCRjNFMiIgc3Ryb2tlLXdpZHRoPSI0LjYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4=");
-  --brand-stamp:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCA0MCA0MCc+CjxjaXJjbGUgY3g9JzIwJyBjeT0nMjAnIHI9JzE5JyBmaWxsPScjRDY0NzJCJyBzdHJva2U9JyMxRTE3MTAnIHN0cm9rZS13aWR0aD0nMicvPgo8Y2lyY2xlIGN4PScyMCcgY3k9JzIwJyByPScxNC41JyBmaWxsPSdub25lJyBzdHJva2U9JyNGQkYzRTInIHN0cm9rZS13aWR0aD0nMS4zJyBzdHJva2UtZGFzaGFycmF5PScyIDMuMicgb3BhY2l0eT0nLjg1Jy8+CjxwYXRoIGQ9Ik05IDEyIEwxNCAyOSBMMjAgMTYgTDI2IDI5IEwzMSAxMiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjRkJGM0UyIiBzdHJva2Utd2lkdGg9IjQuNiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPg==");
+  /* brand mark — circle sectioned into 3 color blocks + hand-drawn "w" squiggle, not a single-letter badge */
+  --brand-mark:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCA0MCA0MCc+CjxwYXRoIGQ9Ik0yMCwyMCBMMTMuNTAsMi4xNSBBMTksMTkgMCAwIDEgMzYuNDUsMjkuNTAgWiIgZmlsbD0iI0Q2NDcyQiIvPgo8cGF0aCBkPSJNMjAsMjAgTDM2LjQ1LDI5LjUwIEExOSwxOSAwIDAgMSAyLjE1LDI2LjUwIFoiIGZpbGw9IiMyQzREQzQiLz4KPHBhdGggZD0iTTIwLDIwIEwyLjE1LDI2LjUwIEExOSwxOSAwIDAgMSAxMy41MCwyLjE1IFoiIGZpbGw9IiNFRUJEM0EiLz4KPGNpcmNsZSBjeD0nMjAnIGN5PScyMCcgcj0nMTknIGZpbGw9J25vbmUnIHN0cm9rZT0nIzFFMTcxMCcgc3Ryb2tlLXdpZHRoPScyJy8+CjxwYXRoIGQ9Ik05LDE1IEwxNC41LDI4IEwyMCwxNyBMMjUuNSwyOCBMMzEsMTUiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI0ZCRjNFMiIgc3Ryb2tlLXdpZHRoPSIzLjMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4=");
+  --brand-stamp:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCA0MCA0MCc+CjxwYXRoIGQ9Ik0yMCwyMCBMMTMuNTAsMi4xNSBBMTksMTkgMCAwIDEgMzYuNDUsMjkuNTAgWiIgZmlsbD0iI0Q2NDcyQiIvPgo8cGF0aCBkPSJNMjAsMjAgTDM2LjQ1LDI5LjUwIEExOSwxOSAwIDAgMSAyLjE1LDI2LjUwIFoiIGZpbGw9IiMyQzREQzQiLz4KPHBhdGggZD0iTTIwLDIwIEwyLjE1LDI2LjUwIEExOSwxOSAwIDAgMSAxMy41MCwyLjE1IFoiIGZpbGw9IiNFRUJEM0EiLz4KPGNpcmNsZSBjeD0nMjAnIGN5PScyMCcgcj0nMTknIGZpbGw9J25vbmUnIHN0cm9rZT0nIzFFMTcxMCcgc3Ryb2tlLXdpZHRoPScyJy8+CjxjaXJjbGUgY3g9JzIwJyBjeT0nMjAnIHI9JzE0LjUnIGZpbGw9J25vbmUnIHN0cm9rZT0nI0ZCRjNFMicgc3Ryb2tlLXdpZHRoPScxLjMnIHN0cm9rZS1kYXNoYXJyYXk9JzIgMy4yJyBvcGFjaXR5PScuODUnLz4KPHBhdGggZD0iTTksMTUgTDE0LjUsMjggTDIwLDE3IEwyNS41LDI4IEwzMSwxNSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjRkJGM0UyIiBzdHJva2Utd2lkdGg9IjMuMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPg==");
+  /* looping connector arrow — signature graphic-language motif */
+  --brand-arrow:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAxMDAgNjAnPgo8cGF0aCBkPSdNNCAzNCBDIDIwIDgsIDQ2IDgsIDUyIDMwIEMgNTYgNDUsIDQwIDUwLCAzNCAzOCBDIDMwIDMwLCA0MCAyNiwgNDYgMzQnIHN0cm9rZT0nIzFFMTcxMCcgc3Ryb2tlLXdpZHRoPSczJyBmaWxsPSdub25lJyBzdHJva2UtbGluZWNhcD0ncm91bmQnLz4KPHBhdGggZD0nTTY0IDE0IEw5NCAyNiBMNjYgNDAnIHN0cm9rZT0nIzFFMTcxMCcgc3Ryb2tlLXdpZHRoPSczJyBmaWxsPSdub25lJyBzdHJva2UtbGluZWNhcD0ncm91bmQnIHN0cm9rZS1saW5lam9pbj0ncm91bmQnLz4KPHBhdGggZD0nTTUyIDMwIEMgNTggMjgsIDY0IDIyLCA2NCAxNCcgc3Ryb2tlPScjMUUxNzEwJyBzdHJva2Utd2lkdGg9JzMnIGZpbGw9J25vbmUnIHN0cm9rZS1saW5lY2FwPSdyb3VuZCcvPgo8L3N2Zz4=");
 
   /* doodle icon set — small, hand-drawn, content-relevant (no external assets) */
   --i-palm:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCA0MCA0MCc+PGNpcmNsZSBjeD0nMjAnIGN5PScyMCcgcj0nMTgnIGZpbGw9JyNGQkYzRTInIHN0cm9rZT0nIzFFMTcxMCcgc3Ryb2tlLXdpZHRoPScyLjUnLz48ZyBmaWxsPSdub25lJyBzdHJva2U9JyMxRTE3MTAnIHN0cm9rZS13aWR0aD0nMi4yJyBzdHJva2UtbGluZWNhcD0ncm91bmQnIHN0cm9rZS1saW5lam9pbj0ncm91bmQnPgo8cGF0aCBkPSdNMTggMTEgUTE2IDIyIDIxIDM0Jy8+CjxwYXRoIGQ9J00xOCAxMSBRNiA4IDMgMTcnLz4KPHBhdGggZD0nTTE4IDExIFExMCAzIDkgMTAnLz4KPHBhdGggZD0nTTE4IDExIFExOCAyIDE5IDYnLz4KPHBhdGggZD0nTTE4IDExIFEyNyAzIDI4IDEwJy8+CjxwYXRoIGQ9J00xOCAxMSBRMzEgOCAzNCAxNycvPgo8L2c+PC9zdmc+");
@@ -109,10 +111,11 @@ img{max-width:100%;display:block}
 
 /* ---------- Nav + wordmark logo ---------- */
 .nav{height:78px;padding:0 5.5%;display:flex;justify-content:space-between;align-items:center;border-bottom:3px solid var(--ink);position:sticky;top:0;background:var(--paper);z-index:20}
-.logo{text-decoration:none;display:inline-flex;align-items:center;gap:9px;position:relative;padding-left:40px}
-.logo::before{content:'';position:absolute;left:0;top:50%;transform:translateY(-50%);width:32px;height:32px;background:var(--brand-mark) no-repeat center/contain}
+.logo{text-decoration:none;display:inline-flex;align-items:center;gap:9px;position:relative;padding-left:44px}
+.logo::before{content:'';position:absolute;left:0;top:50%;transform:translateY(-50%);width:36px;height:36px;background:var(--brand-mark) no-repeat center/contain}
 .logo{font-family:'Bricolage Grotesque',Arial,sans-serif;font-size:19px;font-weight:800;letter-spacing:-.01em;color:var(--tomato-deep)}
-.logo span{font-family:'Caveat',cursive;font-weight:700;font-size:20px;text-transform:lowercase;color:var(--ink);letter-spacing:0;transform:rotate(-4deg);display:inline-block;margin-left:1px}
+.logo span{font-family:'Caveat',cursive;font-weight:700;font-size:21px;text-transform:lowercase;color:var(--ink);letter-spacing:0;transform:rotate(-4deg);display:inline-block;margin-left:2px;position:relative}
+.logo span::after{content:'';position:absolute;left:-2px;right:-6px;bottom:-5px;height:9px;background:var(--brand-arrow) no-repeat left/contain;opacity:.85}
 .nav nav{display:flex;gap:18px;align-items:center}
 .nav nav a{text-decoration:none;font-size:12px;font-weight:700;transition:color .15s ease}
 .nav nav a:not(.pill){position:relative}
@@ -187,7 +190,10 @@ img{max-width:100%;display:block}
 
 /* ---------- Feature grid (hero-level bold blocks) ---------- */
 .feature-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:20px}
-.feature{min-height:420px;padding:32px;display:flex;flex-direction:column;border:3px solid var(--ink);background:var(--tomato);color:var(--ink);position:relative;box-shadow:7px 7px 0 var(--ink);border-radius:24px 12px 24px 12px;transition:transform .2s ease,box-shadow .2s ease}
+.feature{min-height:420px;padding:32px;display:flex;flex-direction:column;border:3px solid var(--ink);background:var(--tomato);color:var(--ink);position:relative;box-shadow:7px 7px 0 var(--ink);border-radius:24px 12px 24px 12px;transition:transform .2s ease,box-shadow .2s ease;overflow:hidden}
+.feature.halftone::before{opacity:.22}
+.feature.dark.halftone::before{background-image:radial-gradient(circle,rgba(251,243,226,.6) 1.4px,transparent 1.5px);opacity:.14}
+.feature>*{position:relative;z-index:1}
 .feature:nth-of-type(odd){transform:rotate(-.7deg)}
 .feature:nth-of-type(even){transform:rotate(.7deg)}
 .feature:hover{transform:rotate(0) translate(-3px,-3px);box-shadow:10px 10px 0 var(--ink)}
@@ -218,22 +224,32 @@ img{max-width:100%;display:block}
 .cat small{grid-column:2;color:var(--muted);font-size:12px;line-height:1.45}
 .cat .arrow{grid-column:3;grid-row:1;font-size:20px;color:var(--accent)}
 
-/* ---------- Cards: cream/white base + colored border + tag + icon stamp ---------- */
+/* ---------- Cards: cream/white base + paper-cut corner tag + oval category stamp ---------- */
 .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
 .card{padding:26px;border:2.5px solid var(--ink);background:var(--white);min-height:308px;display:flex;flex-direction:column;position:relative;overflow:visible;transition:transform .18s ease,box-shadow .18s ease;box-shadow:4px 4px 0 rgba(30,23,16,.14);border-radius:16px 8px 16px 8px}
+/* paper-cut corner tag — a die-cut colored triangle folded over the top-left corner */
+.card::before{content:'';position:absolute;top:-2px;left:-2px;width:0;height:0;border-style:solid;border-width:34px 34px 0 0;border-color:var(--accent-bright) transparent transparent transparent;border-radius:16px 0 0 0;filter:drop-shadow(2px 2px 0 rgba(30,23,16,.15));z-index:1}
 .card::after{content:'';position:absolute;top:-11px;right:14px;width:26px;height:26px;background:var(--accent-tint) var(--i-star) no-repeat center/60%;border:2px solid var(--ink);border-radius:50%}
 .card:hover{transform:translate(-2px,-2px);box-shadow:6px 6px 0 var(--ink)}
 .card h3{font-family:'Bricolage Grotesque',Arial,sans-serif;font-weight:700;font-size:21px;line-height:1.14;letter-spacing:-.005em;margin:14px 0 9px}
 .card p{font-size:13px;line-height:1.55;color:var(--muted)}
-.card a{margin-top:auto;text-decoration:none;font-weight:800;font-size:12px;color:var(--accent);width:max-content;border-bottom:2px solid var(--accent-bright)}
+.card a{margin-top:auto;display:inline-flex;align-items:center;gap:6px;text-decoration:none;font-weight:800;font-size:11px;letter-spacing:.03em;color:var(--ink);width:max-content;background:var(--accent-tint);border:2px solid var(--ink);padding:8px 12px;border-radius:999px 999px 6px 999px;transition:transform .15s ease,box-shadow .15s ease}
+.card a:hover{transform:translate(-1px,-1px);box-shadow:2px 2px 0 var(--ink)}
+.card-actions{margin-top:auto;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.card-actions a{margin-top:0}
+.save-btn{display:inline-flex;align-items:center;gap:5px;font-family:'DM Sans',Arial,sans-serif;font-weight:800;font-size:10.5px;letter-spacing:.03em;background:var(--white);color:var(--ink);border:2px solid var(--ink);padding:8px 10px;border-radius:999px;cursor:pointer;transition:transform .15s ease,background .15s ease}
+.save-btn:hover{transform:translate(-1px,-1px)}
+.save-btn::after{content:'☆';font-size:12px;line-height:1}
+.save-btn.is-saved{background:var(--butter)}
+.save-btn.is-saved::after{content:'★'}
 .meta{margin-top:16px;font-size:10px;color:inherit;opacity:.72;letter-spacing:.08em;text-transform:uppercase}
 .meta a{color:inherit;text-decoration:none;border-bottom:1px dotted currentColor;padding-bottom:1px}
 .meta a:hover{color:var(--accent);border-bottom-color:var(--accent)}
 .card-top{display:flex;justify-content:space-between;align-items:center}
 .score{font-size:11px;font-weight:700;border:2px solid var(--ink);padding:6px 8px;border-radius:999px}
 
-/* colored tag chips + relevant doodle stamps per category — reuses data-category attribute */
-.card .tag{display:inline-block;width:max-content;padding:5px 10px;border-radius:999px;border:1.5px solid var(--ink);background:var(--paper2);color:var(--ink)}
+/* colored oval category stamp (was a flat pill) + relevant doodle stamps per category — reuses data-category attribute */
+.card .tag{display:inline-block;width:max-content;padding:6px 13px;border-radius:50%/50%;border:1.5px dashed var(--ink);background:var(--paper2);color:var(--ink);transform:rotate(-3deg);position:relative;font-size:9.5px}
 .card[data-category="travel"] .tag{background:var(--deepgreen-tint);color:var(--deepgreen-deep);border-color:var(--deepgreen-deep)}
 .card[data-category="eat"] .tag{background:var(--tangerine-tint);color:var(--tangerine-deep);border-color:var(--tangerine-deep)}
 .card[data-category="do"] .tag{background:var(--coral-tint);color:var(--coral-deep);border-color:var(--coral-deep)}
@@ -246,6 +262,20 @@ img{max-width:100%;display:block}
 .card[data-category="drink"]::after{background-color:var(--coral-tint);background-image:var(--i-cocktail)}
 .card[data-category="stay"] .tag{background:var(--cobalt-tint);color:var(--cobalt-deep);border-color:var(--cobalt-deep)}
 .card[data-category="stay"]::after{background-color:var(--cobalt-tint);background-image:var(--i-bed)}
+
+/* corner-tag color follows category regardless of page theme, so a mixed-category grid stays colorful */
+.card[data-category="travel"]::before{border-color:var(--deepgreen) transparent transparent transparent}
+.card[data-category="eat"]::before{border-color:var(--tangerine) transparent transparent transparent}
+.card[data-category="do"]::before{border-color:var(--coral) transparent transparent transparent}
+.card[data-category="find"]::before{border-color:var(--lilac) transparent transparent transparent}
+.card[data-category="drink"]::before{border-color:var(--coral) transparent transparent transparent}
+.card[data-category="stay"]::before{border-color:var(--cobalt) transparent transparent transparent}
+.card[data-category="travel"] a{background:var(--deepgreen-tint)}
+.card[data-category="eat"] a{background:var(--tangerine-tint)}
+.card[data-category="do"] a{background:var(--coral-tint)}
+.card[data-category="find"] a{background:var(--lilac-tint)}
+.card[data-category="drink"] a{background:var(--coral-tint)}
+.card[data-category="stay"] a{background:var(--cobalt-tint)}
 
 /* ---------- Newsletter (ticket-stub top edge) ---------- */
 .newsletter{margin:0 7%;background:var(--ink);color:var(--paper);padding:52px 6% 42px;display:flex;justify-content:space-between;gap:50px;align-items:end;position:relative;overflow:hidden;border-radius:20px}
@@ -325,6 +355,8 @@ img{max-width:100%;display:block}
 .category-grid .city:nth-child(4){margin-top:0}
 .category-grid .city:nth-child(5){margin-top:22px}
 .category-grid .city:nth-child(6){margin-top:8px}
+.category-grid .city{text-decoration:none;color:var(--ink)}
+.category-grid .city span{margin-top:auto;text-decoration:none;font-weight:800;font-size:12px;width:max-content;border-bottom:2px solid currentColor;padding-bottom:2px;display:inline-block}
 
 /* ---------- Search / directory ---------- */
 .searchbar{display:flex;gap:10px;margin:0 0 30px}
@@ -349,6 +381,11 @@ img{max-width:100%;display:block}
 .footer a:hover{color:var(--accent)}
 .footer span:first-child{display:flex;align-items:center;gap:8px}
 .footer span:first-child::before{content:'';width:16px;height:16px;background:var(--brand-mark) no-repeat center/contain}
+
+/* ---------- Graphic language utilities: halftone texture + torn-paper edge ---------- */
+.halftone{position:relative}
+.halftone::before{content:'';position:absolute;inset:0;pointer-events:none;background-image:radial-gradient(circle,rgba(30,23,16,.5) 1.4px,transparent 1.5px);background-size:9px 9px;-webkit-mask-image:linear-gradient(135deg,black,transparent 55%);mask-image:linear-gradient(135deg,black,transparent 55%);opacity:.16;z-index:0}
+.torn-top{clip-path:polygon(0 12px,3% 0,7% 10px,12% 1px,17% 9px,22% 2px,27% 11px,32% 0,37% 8px,42% 2px,47% 10px,52% 1px,57% 9px,62% 0,67% 11px,72% 2px,77% 9px,82% 1px,87% 10px,92% 0,97% 8px,100% 12px,100% 100%,0 100%)}
 
 .hide{display:none!important}
 
